@@ -1,0 +1,63 @@
+h1 {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+section { color: red; }
+
+p {
+	font-size: 1.2rem;
+}
+
+#hello input {
+	background-color: black;
+}
+
+html body section p {
+	text-indent: 3em;
+}
+
+aside p {
+	letter-spacing: 5px;
+}
+
+/* pseudo selector first-letter */
+p:first-letter {
+	font-weight: bold;
+	font-size: 2em;
+	border: solid 1px black;
+}
+
+p:before {
+	border: solid 1px black;
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	position: relative;
+}
+
+em {
+	font-size: 1.2rem;
+}
+
+a {}
+
+#warning {
+	color: rgb(0, 255, 0);
+}
+
+/** selects all children of the p element with the unimportant class **/
+p .unimportant {
+	font-size: 0.5em;
+	color: grey;
+}
+
+/** only selects p tags with the unimportant class **/
+p.unimportant {
+	font-size: 0.5em;
+	color: grey;
+}
+
+/*
+  1em = width of m
+  2em = 2x width of m
+*/
